@@ -1,0 +1,41 @@
+package com.bdmarket.util;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Formate {
+
+	public boolean checkNumbervalidator(String name) {
+		int flag = 1;
+		for (int i = 0; i < name.length(); i++) {
+			char ch = name.charAt(i);
+			if (Character.isLetter(ch)) {
+				flag = 2;
+			}
+		}
+		if (flag == 2) {
+			return true;
+		}
+		return false;
+	}
+
+	public boolean checkSpecialcharacter(String value) {
+		Pattern special = Pattern.compile("[$&+,:;=\\\\\\\\?@#|/'<>.^*()%!-]");
+		Matcher hasSpecial = special.matcher(value);
+		if (hasSpecial.find() == true) {
+			return true;
+		}
+		return false;
+	}
+
+	public boolean checkContactNo(String contactNo) {
+		String getcontactNo = contactNo;
+		if (getcontactNo.length() == 11) {
+			return true;
+		} else {
+			return false;
+		}
+
+	}
+
+}

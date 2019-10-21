@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.bdmarket.daoimp" project="BDmarket" file="/BDmarket/src/com/bdmarket/daoimp" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="152" x="316" y="-191"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="2" language="java" name="com.bdmarket.dao.CategoryDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/CategoryDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="185" x="7013" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="com.bdmarket.dao.UpdateProfileshopDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/UpdateProfileshopDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="214" x="7982" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.bdmarket.daoimp.updateProfileshopImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/updateProfileshopImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="214" x="7982" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.bdmarket.model.MessageShopkeeper" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/MessageShopkeeper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="285" x="508" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="6" language="java" name="com.bdmarket.service" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="152" x="833" y="-191"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="7" language="java" name="com.bdmarket.serviceImp.CustomerServiceImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/CustomerServiceImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="256" x="7013" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.bdmarket.util.DBconnection" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/util/DBconnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="163" x="1025" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.bdmarket.model.Message" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/Message.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="196" x="1228" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="com.bdmarket.dao.MessageShopkeeperDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/MessageShopkeeperDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="329" x="5553" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="com.bdmarket.daoimp.CategoryDaoImpl" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/CategoryDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="5808" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.bdmarket.serviceImp.ShopkeeperServiceImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/ShopkeeperServiceImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="258" x="8490" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="com.bdmarket.service.CustomerService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/CustomerService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="256" x="7238" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="com.bdmarket.controlloer.ManageCustomer" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/ManageCustomer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="288" x="6685" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.bdmarket.controlloer.GeneratePDF" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/GeneratePDF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="284" x="8736" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.bdmarket.daoimp.StatisticsDaoImpl" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/StatisticsDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="158" x="6033" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="17" language="java" name="com.bdmarket.dao" project="BDmarket" file="/BDmarket/src/com/bdmarket/dao" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="131" x="1464" y="-191"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="18" language="java" name="com.bdmarket.daoimp.CartDaoImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/CartDaoImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="175" x="4717" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.bdmarket.serviceImp.UpdateProfileshopServiceImpl" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/UpdateProfileshopServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="214" x="8236" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.bdmarket.model.Category" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/Category.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="168" x="1635" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="com.bdmarket.dao.StatisticsDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/StatisticsDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="158" x="6033" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="com.bdmarket.model.Customer" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="291" x="1843" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="23" language="java" name="com.bdmarket.dao.CartDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/CartDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="175" x="5338" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="24" language="java" name="com.bdmarket.model.ShopKeeper" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/ShopKeeper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="305" x="2174" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.bdmarket.serviceImp.StatisticsServiceImpl" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/StatisticsServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="158" x="6231" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.bdmarket.controlloer.Managereg" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/Managereg.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="288" x="7763" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.bdmarket.serviceImp.CartServiceImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/CartServiceImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="175" x="6429" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.bdmarket.util.SendEmail" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/util/SendEmail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="233" x="2519" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="29" language="java" name="com.bdmarket.service.ShopkeeperService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/ShopkeeperService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="258" x="8490" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="30" language="java" name="com.bdmarket.serviceImp.ContactServiceImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/ContactServiceImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="154" x="7309" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.bdmarket.controlloer.ManageShopkeeper" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/ManageShopkeeper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="288" x="7013" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.bdmarket.controlloer.ManageAdmin" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/ManageAdmin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="8091" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="33" language="java" name="com.bdmarket.util" project="BDmarket" file="/BDmarket/src/com/bdmarket/util" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="127" x="2792" y="-191"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="34" language="java" name="com.bdmarket.controlloer.ManageLogout" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/ManageLogout.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="2959" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.bdmarket.daoimp.CustomerRegImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/CustomerRegImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="221" x="8788" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="36" language="java" name="com.bdmarket.service.ContactService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/ContactService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="154" x="7534" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="37" language="java" name="com.bdmarket.dao.ContactDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/ContactDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="171" x="6433" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="38" language="java" name="com.bdmarket.service.UpdateProfileshopService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/UpdateProfileshopService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="214" x="8236" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="39" language="java" name="com.bdmarket.service.MessageShopkeeperService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/MessageShopkeeperService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="329" x="6644" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="40" language="java" name="com.bdmarket.serviceImp.MessageShopkeeperServiceImpl" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/MessageShopkeeperServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="329" x="6644" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="41" language="java" name="com.bdmarket.serviceImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="173" x="3287" y="-191"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="42" language="java" name="com.bdmarket.serviceImp.CustomerRegServiceImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/CustomerRegServiceImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="173" x="9049" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="43" language="java" name="com.bdmarket.dao.ShopkeeperDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/ShopkeeperDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="258" x="8788" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="44" language="java" name="com.bdmarket.service.StatisticsService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/StatisticsService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="158" x="6231" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="com.bdmarket.util.Formate" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/util/Formate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="214" x="7503" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.bdmarket.model.Cart" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/Cart.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="639" width="314" x="3500" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.bdmarket.model.Post" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/Post.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="675" width="332" x="3854" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="48" language="java" name="com.bdmarket.service.CustomerRegService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/CustomerRegService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="173" x="9347" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="49" language="java" name="com.bdmarket.daoimp.CustomerDaoImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/CustomerDaoImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="256" x="5301" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="com.bdmarket.daoimp.MessageShopkeeperDaoImpl" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/MessageShopkeeperDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="329" x="4932" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="51" language="java" name="com.bdmarket.service.CategoryService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/CategoryService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="185" x="7757" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="52" language="java" name="com.bdmarket.model" project="BDmarket" file="/BDmarket/src/com/bdmarket/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="145" x="4226" y="-191"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="53" language="java" name="com.bdmarket.dao.CustomerRegDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/CustomerRegDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="221" x="9086" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="54" language="java" name="com.bdmarket.model.CustomerOrder" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/CustomerOrder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="765" width="430" x="4411" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="55" language="java" name="com.bdmarket.dao.CustomerDao" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/dao/CustomerDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="256" x="6137" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="56" language="java" name="com.bdmarket.service.CartService" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/service/CartService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="175" x="5922" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="57" language="java" name="com.bdmarket.serviceImp.CategoryServiceImpl" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/serviceImp/CategoryServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="7757" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="58" language="java" name="com.bdmarket.controlloer" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="172" x="4881" y="-191"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="59" language="java" name="com.bdmarket.controlloer.Managelogin" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/Managelogin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="9060" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="com.bdmarket.daoimp.ShopkeeperdaoImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/ShopkeeperdaoImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="258" x="9262" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="com.bdmarket.daoimp.ContactImp" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/daoimp/ContactImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="171" x="5597" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="com.bdmarket.model.UpdateProfile" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/UpdateProfile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="295" x="5093" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="com.bdmarket.model.Contact" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/model/Contact.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="237" x="5428" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="com.bdmarket.controlloer.Managepages" project="BDmarket" 
+    file="/BDmarket/src/com/bdmarket/controlloer/Managepages.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="5705" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="65">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <realization id="66">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="38"/>  
+  </realization>  
+  <association id="67">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="68" name="customerservice"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="71" name="messageshopkeeperdao"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="73">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <association id="74">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="75" name="shokeeperservice"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="78" name="statisticdao"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="80">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="56"/>  
+  </realization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="82">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="83" name="customerreg"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="85">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="37"/>  
+  </realization>  
+  <realization id="86">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="87">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="88" name="shokeeperservice"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="91" name="cartservice"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="94" name="customerdao"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="97" name="customerreg"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="100" name="regDao"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="102">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <realization id="103">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <association id="104">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="105" name="messageshopkeeperservice"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="107">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <association id="108">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="109" name="shop_reg"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="111">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="112">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="113" name="formate"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="115">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="39"/>  
+  </realization>  
+  <realization id="116">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <association id="117">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="118" name="catetgoryservice"/>      
+      <multiplicity id="119" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="57" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <end type="SOURCE" refId="59" navigable="false">      
+      <attribute id="121" name="cus_reg"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="124" name="updateprofile"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="126">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="127">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="128" name="shopkeeperdao"/>      
+      <multiplicity id="129" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="130">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="131" name="updatedao"/>      
+      <multiplicity id="132" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="133">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="134" name="customerservice"/>      
+      <multiplicity id="135" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="136">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="137">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="138" name="updateprofile"/>      
+      <multiplicity id="139" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="140">    
+    <end type="SOURCE" refId="57" navigable="false">      
+      <attribute id="141" name="categorydao"/>      
+      <multiplicity id="142" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="143">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="144" name="cus_reg"/>      
+      <multiplicity id="145" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="146">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="147" name="messageshopkeeper"/>      
+      <multiplicity id="148" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="149">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="150" name="cus_Contact"/>      
+      <multiplicity id="151" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="152">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <association id="153">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="154" name="shopkeeper"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="156">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="157" name="customerservice"/>      
+      <multiplicity id="158" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="159">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="160" name="formate"/>      
+      <multiplicity id="161" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="162">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <association id="163">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="164" name="customerservice"/>      
+      <multiplicity id="165" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="166">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="167" name="cartDao"/>      
+      <multiplicity id="168" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="169">    
+    <end type="SOURCE" refId="59" navigable="false">      
+      <attribute id="170" name="shop_reg"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="172">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="43"/>  
+  </realization>  
+  <association id="173">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="174" name="formate"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="177" name="contactDao"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

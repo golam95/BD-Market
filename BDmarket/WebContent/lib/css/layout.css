@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+.leftshopkeeper {
+	height: 100%;
+	background: #74B54D;
+	width: 180px;
+	float: left;
+	position: fixed;
+}
+
+.section-button {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.button {
+	width: 110px;
+	margin-top: 15px;
+	background: #57992E;
+	margin-left: 25px;
+	height: 85px;
+	border-radius: 5px;
+	border: 5px solid #466730;
+}
+
+.button a {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 40px;
+	color: #FFFFFF;
+}
+
+.buttonaction {
+	padding-top: 25px;
+	text-align: center;
+}
+
+.segment {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.logout_seg {
+	float: left;
+	width: 100px;
+}
